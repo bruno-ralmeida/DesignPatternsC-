@@ -6,8 +6,15 @@ namespace boasPraticas
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
-      Console.ReadKey();
+      var calculator = new TaxCalculator();
+      var iss = new ISS();
+      var icms = new ICMS();
+
+      Budget budget = new Budget(500);
+
+      calculator.Calculate(budget, iss);
+      calculator.Calculate(budget, icms);
+
     }
   }
 }
