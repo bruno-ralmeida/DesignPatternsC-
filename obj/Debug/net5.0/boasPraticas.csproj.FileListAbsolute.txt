@@ -1,0 +1,16 @@
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas.deps.json
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas.runtimeconfig.json
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas.runtimeconfig.dev.json
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas.dll
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/ref/boasPraticas.dll
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/bin/Debug/net5.0/boasPraticas.pdb
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.csproj.AssemblyReference.cache
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.GeneratedMSBuildEditorConfig.editorconfig
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.AssemblyInfoInputs.cache
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.AssemblyInfo.cs
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.csproj.CoreCompileInputs.cache
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.dll
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/ref/boasPraticas.dll
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.pdb
+/media/xxnbr/xxnbr/workspace/learning/Alura/csharp_course/boasPraticas/obj/Debug/net5.0/boasPraticas.genruntimeconfig.cache
