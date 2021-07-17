@@ -6,14 +6,21 @@ namespace boasPraticas
   {
     static void Main(string[] args)
     {
-      var calculator = new TaxCalculator();
-      var iss = new ISS();
-      var icms = new ICMS();
+      var calculator = new DiscountCalculator();
 
-      Budget budget = new Budget(500);
+      Budget budget = new Budget(1250);
 
-      calculator.Calculate(budget, iss);
-      calculator.Calculate(budget, icms);
+      budget.AddItem(new Item("Caneta", 250));
+      budget.AddItem(new Item("Lapís", 250));
+      budget.AddItem(new Item("Borracha", 250));
+      budget.AddItem(new Item("Grafite", 250));
+      budget.AddItem(new Item("Pincel", 250));
+
+
+      var discount = calculator.Calculate(budget);
+
+      Console.WriteLine("Desconto: {0}", discount);
+      Console.ReadKey();
 
     }
   }
