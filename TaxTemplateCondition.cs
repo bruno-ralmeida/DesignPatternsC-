@@ -1,8 +1,6 @@
-using System;
-
 namespace boasPraticas
 {
-  public abstract class TaxTemplateCondition : ITax
+  public abstract class TaxTemplateCondition
   {
     public double Calculate(Budget budget)
     {

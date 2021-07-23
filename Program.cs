@@ -6,14 +6,12 @@ namespace boasPraticas
   {
     static void Main(string[] args)
     {
-      var calculator = new TaxCalculator();
-      var icpp = new ICPP();
-      var ikcv = new IKCV();
+      var iss = new ISS(new ICMS());
+      var budget = new Budget(500);
 
-      Budget budget = new Budget(300);
-      Console.WriteLine("Budget: {0}", budget.ToString());
-      calculator.Calculate(budget, icpp);
-      calculator.Calculate(budget, ikcv);
+      var value = iss.Calculate(budget);
+
+      Console.WriteLine(value);
       Console.ReadKey();
 
     }

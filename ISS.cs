@@ -1,10 +1,12 @@
 namespace boasPraticas
 {
-  public class ISS : ITax
+  public class ISS : Tax
   {
-    public double Calculate(Budget budget)
+    public ISS(Tax composeTax) : base(composeTax) { }
+    public ISS() : base() { }
+    public override double Calculate(Budget budget)
     {
-      return budget.Value * 0.06;
+      return budget.Value * 0.06 + base.CalculateCompose(budget);
     }
 
   }
